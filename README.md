@@ -2,7 +2,7 @@
 Python scripts for processing and analyzing cyclic voltammetry (CV) data from EC-Lab. 
 This repository contains scripts for common electrochemical data analysis tasks used in catalysis and electrochemistry research, including:
 
-CV plotting (current density vs potential)
+  CV plotting (current density vs potential)
 
   ECSA estimation from CV
   
@@ -10,10 +10,10 @@ CV plotting (current density vs potential)
   
   The scripts read BioLogic .mpr files using the galvani package and perform analysis with pandas, numpy, and matplotlib.
 
-Usage
+## Usage
   All scripts use BioLogic .mpr files as input.
 
-  CV Plotting
+  ### CV Plotting
   
   Plot current density versus potential (vs RHE):
   
@@ -29,7 +29,7 @@ Usage
 
   This script converts current to current density and generates a CV plot.
 
-ECSA Calculation
+### ECSA Calculation
   Estimate the double-layer capacitance (Cdl) from CV measurements.
   
   python scripts/run_ecsa.py file.mpr --pH 7 --potential 0.1
@@ -43,7 +43,7 @@ ECSA Calculation
 
   The script automatically detects scan rates from the BioLogic file and performs a linear fit of capacitive current versus scan rate to estimate Cdl.
 
-Onset Potential Detection
+### Onset Potential Detection
 
   Determine the onset potential based on baseline noise in the double-layer region.
   
