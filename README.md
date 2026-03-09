@@ -21,11 +21,11 @@ Usage
 
   Parameters
   
-    file - Path to the BioLogic .mpr file.
+  file - Path to the BioLogic .mpr file.
     
-    pH - Electrolyte pH used for conversion to the RHE scale.
+  pH - Electrolyte pH used for conversion to the RHE scale.
     
-    ECSA - Electrochemical surface area of the electrode (cm²).
+  ECSA - Electrochemical surface area of the electrode (cm²).
 
   This script converts current to current density and generates a CV plot.
 
